@@ -34,7 +34,7 @@ app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors({
     origin: "*", // Allow requests from any origin
-    methods: ["GET", "POST", "PUT", "DELETE"], // Allow these methods
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"], // Allow these methods
     credentials: true, // Allow credentials (e.g., cookies)
   }));
 app.use("/assets", express.static(path.join(__dirname,'public/assets')));
