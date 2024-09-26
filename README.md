@@ -4,7 +4,6 @@ Here’s an updated version of the README file with emojis and Cloudinary remove
 
 # 🌟 Social Flare - Server
 
-![Social Flare Logo](https://via.placeholder.com/150)  
 *A MERN Stack Social Media Platform*
 
 ## 🚀 Overview
